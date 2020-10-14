@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="300.0" style="-fx-background-image: url('file:C:/Users/vctrb/eclipse-workspace/RosaCake/src/br/com/RosaCake/imagens/FundoDoce.png'); -fx-background-size: cover;" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.RosaCake.views.InicialController">
+   <children>
+      <Button fx:id="btnEncomenda" disable="true" layoutX="87.0" layoutY="199.0" mnemonicParsing="false" onAction="#clicouEncomenda" style="-fx-background-color: #000000; -fx-background-radius: 20;" text="Agendar Encomenda" textFill="#9e4d4d" />
+      <Button fx:id="btnInOut" layoutX="94.0" layoutY="256.0" mnemonicParsing="false" onAction="#clicouInOut" style="-fx-background-color: #000000; -fx-background-radius: 20;" text="Entradas e Saídas" textFill="#9e4d4d" />
+      <Button fx:id="btnLucro" layoutX="127.0" layoutY="313.0" mnemonicParsing="false" onAction="#clicouLucro" style="-fx-background-color: #000000; -fx-background-radius: 20;" text="Lucro" textFill="#9e4d4d" />
+      <ImageView fitHeight="81.0" fitWidth="222.0" layoutX="41.0" layoutY="48.0" pickOnBounds="true">
+         <image>
+            <Image url="@../imagens/FUNDO%20PRETO.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="71.0" layoutY="59.0" prefHeight="46.0" prefWidth="163.0" text="ROSA CAKE" textAlignment="CENTER" textFill="#9e4d4d">
+         <font>
+            <Font name="Arial Narrow Bold" size="31.0" />
+         </font></Label>
+      <Label layoutX="83.0" layoutY="97.0" text="CONFEITARIA ARTESANAL" textFill="#9e4d4d" />
+   </children>
+</AnchorPane>
